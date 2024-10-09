@@ -8,6 +8,7 @@ export default function Component() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isVisible, setIsVisible] = useState({})
 
+  //scroll
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20)
